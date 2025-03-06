@@ -1,6 +1,6 @@
 import React from 'react';
-import { DataGrid, GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
-import { Switch, FormControlLabel } from '@mui/material';
+import { GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
+import { Switch } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import { StyledDataGrid, ThemeSwitch } from '../styles/DataGridStyles';
 import { MuiDataGridProps, MovieData } from '../types/movie';
